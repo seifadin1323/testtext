@@ -42,4 +42,4 @@ def perform_ocr(language):
 def hello():
     return 'Hello, text'
 if __name__ == '__main__':
-    app_ocr.run(debug=True, port=4000)
+    app.run(debug=True, port=4000)
