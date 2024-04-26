@@ -7,7 +7,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tessera
 
 app = Flask(__name__)
 
-@app_ocr.route('/api/perform_ocr/<language>', methods=['PUT'])
+@app.route('/api/perform_ocr/<language>', methods=['PUT'])
 def perform_ocr(language):
     try:
         # Get the image file from the request
