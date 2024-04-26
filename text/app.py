@@ -38,7 +38,7 @@ def perform_ocr(language):
         return jsonify(text)
     except Exception as e:
         return jsonify({'error': str(e)}), 500
-@app_ocr.route('/')
+@app.route('/')
 def hello():
     return 'Hello, text'
 if __name__ == '__main__':
