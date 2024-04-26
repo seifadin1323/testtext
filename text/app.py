@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 from PIL import Image
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
 
 app = Flask(__name__)
 
